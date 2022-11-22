@@ -28,11 +28,14 @@ The most important stages:
   * Generate new CSV file so that it has a column of audio file path (WAV data)
 ![image](https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png)
 
-* Load Train, Test and validation dataset:
-  * Separating dataset to train and test sets
+  * Load Train, Test and validation dataset:
+   * Separating dataset to train and test sets
 Train set would look like:
 ![image](https://user-images.githubusercontent.com/93929227/203255067-97374295-2463-443b-a936-67f820f66a01.png)
 
-* Create Wav2Vec2 Feature Extractor:
-  * Downsample the data because ATCOSIM dataset sampled with 32kHz but our fine-tuning dataset sampled with 16kHz
-* Preprocess Data
+ * Create Wav2Vec2 Feature Extractor:
+   * Downsample the data because ATCOSIM dataset sampled with 32kHz but our fine-tuning dataset sampled with 16kHz
+
+ * Preprocess Data
+  * Adding "speech" column to the dataset so that we can read the audio files.
+

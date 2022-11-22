@@ -23,17 +23,17 @@ English language and pronounced by ten non-native operational controllers.
 
 <!-- ![ATCOSIM_Dataset_Corpus](https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png) -->
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png" width="30%" height="30%"/>
+<img src = "https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png" width="40%" height="40%"/>
 <p/>
 The most important stages:
 * Prepare Data, Tokenizer, Feature Extractor:
  * Generate new CSV file so that it has a column of audio file path (WAV data)
-![image](https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png)
+<img3 src="https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png" width="60%" height="60%"/>
 
  * Load Train, Test and validation dataset:
   * Separating dataset to train and test sets
 Train set would look like:
-![image](https://user-images.githubusercontent.com/93929227/203255067-97374295-2463-443b-a936-67f820f66a01.png)
+<img2 src="https://user-images.githubusercontent.com/93929227/203255067-97374295-2463-443b-a936-67f820f66a01.png" width="70%" height="70%"/>
 
 * Create Wav2Vec2 Feature Extractor:
   * Downsample the data because ATCOSIM dataset sampled with 32kHz but our fine-tuning dataset sampled with 16kHz
@@ -43,7 +43,7 @@ Train set would look like:
 * Traning and Evaluation
  * Preparing arguments for our pre-trained model
  * After training, we reach to WER around 0.3 which is reasonable:
-![image](https://user-images.githubusercontent.com/93929227/203259539-cd94e939-46f0-4897-bec3-d0da368020de.png width=50% height=50%)
+<img2 src="https://user-images.githubusercontent.com/93929227/203259539-cd94e939-46f0-4897-bec3-d0da368020de.png" width=70% height=70%/>
  * In final step we evaluate the model. Here are ten random example of our resluts with 35% WER:
 ![image](https://user-images.githubusercontent.com/93929227/203260165-8bc0dbf8-9f75-4db5-a5bd-7985ddf2781f.png)
 

@@ -28,12 +28,12 @@ English language and pronounced by ten non-native operational controllers.
 The most important stages:
 * Prepare Data, Tokenizer, Feature Extractor:
  * Generate new CSV file so that it has a column of audio file path (WAV data)
-<img3 src="https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png" width="60%" height="60%"/>
+<img src = "https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png" width="60%" height="60%"/>
 
  * Load Train, Test and validation dataset:
   * Separating dataset to train and test sets
 Train set would look like:
-<img2 src="https://user-images.githubusercontent.com/93929227/203255067-97374295-2463-443b-a936-67f820f66a01.png" width="70%" height="70%"/>
+<img src = "https://user-images.githubusercontent.com/93929227/203255067-97374295-2463-443b-a936-67f820f66a01.png" width="70%" height="70%"/>
 
 * Create Wav2Vec2 Feature Extractor:
   * Downsample the data because ATCOSIM dataset sampled with 32kHz but our fine-tuning dataset sampled with 16kHz
@@ -43,7 +43,7 @@ Train set would look like:
 * Traning and Evaluation
  * Preparing arguments for our pre-trained model
  * After training, we reach to WER around 0.3 which is reasonable:
-<img2 src="https://user-images.githubusercontent.com/93929227/203259539-cd94e939-46f0-4897-bec3-d0da368020de.png" width=70% height=70%/>
+<img src = "https://user-images.githubusercontent.com/93929227/203259539-cd94e939-46f0-4897-bec3-d0da368020de.png" width=70% height=70%/>
  * In final step we evaluate the model. Here are ten random example of our resluts with 35% WER:
 ![image](https://user-images.githubusercontent.com/93929227/203260165-8bc0dbf8-9f75-4db5-a5bd-7985ddf2781f.png)
 

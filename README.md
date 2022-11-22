@@ -18,10 +18,11 @@ Running the code on availabe on [HuggingFace](https://huggingface.co/m3hrdadfi/w
 Running the code available on [HuggingFace](https://huggingface.co/blog/fine-tune-wav2vec2-english), to get closer to the main project which is in English.
 
 ## Fourth phase: Fine-tuning the wav2vec2-large-robust model on air traffic dataset
-The dataset that was used was [ATCOSIM](https://www.spsc.tugraz.at/databases-and-tools/atcosim-air-traffic-control-simulation-speech-corpus.html width=50% height=50%). It consists of ten hours of speech data, which were recorded during ATC realtime simulations, automatically segmented, and orthographically transcribed. The utterances are in
+The dataset that was used was [ATCOSIM](https://www.spsc.tugraz.at/databases-and-tools/atcosim-air-traffic-control-simulation-speech-corpus.html). It consists of ten hours of speech data, which were recorded during ATC realtime simulations, automatically segmented, and orthographically transcribed. The utterances are in
 English language and pronounced by ten non-native operational controllers. 
 
-![ATCOSIM_Dataset_Corpus](https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png)
+<!-- ![ATCOSIM_Dataset_Corpus](https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png) -->
+<img src = "https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png" width=50% height=50%>
 
 The most important stages:
 * Prepare Data, Tokenizer, Feature Extractor:
@@ -41,7 +42,7 @@ Train set would look like:
 * Traning and Evaluation
  * Preparing arguments for our pre-trained model
  * After training, we reach to WER around 0.3 which is reasonable:
-![image](https://user-images.githubusercontent.com/93929227/203259539-cd94e939-46f0-4897-bec3-d0da368020de.png)
+![image](https://user-images.githubusercontent.com/93929227/203259539-cd94e939-46f0-4897-bec3-d0da368020de.png width=50% height=50%)
  * In final step we evaluate the model. Here are ten random example of our resluts with 35% WER:
 ![image](https://user-images.githubusercontent.com/93929227/203260165-8bc0dbf8-9f75-4db5-a5bd-7985ddf2781f.png)
 

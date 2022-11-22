@@ -20,4 +20,19 @@ Running the code available on [HuggingFace](https://huggingface.co/blog/fine-tun
 ## Fourth phase: Fine-tuning the wav2vec2-large-robust model on air traffic dataset
 The dataset that was used was [ATCOSIM](https://www.spsc.tugraz.at/databases-and-tools/atcosim-air-traffic-control-simulation-speech-corpus.html). It consists of ten hours of speech data, which were recorded during ATC realtime simulations, automatically segmented, and orthographically transcribed. The utterances are in
 English language and pronounced by ten non-native operational controllers. 
+
 ![ATCOSIM_Dataset_Corpus](https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png)
+The most important stages:
+* Prepare Data, Tokenizer, Feature Extractor:
+  * Generate new CSV file so that it has a column of audio file path (WAV data)
+
+![image](https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png)
+
+* Load Train, Test and validation dataset:
+  * Separating dataset to train and test sets
+Train set would look like:
+![image](https://user-images.githubusercontent.com/93929227/203255067-97374295-2463-443b-a936-67f820f66a01.png)
+
+* Create Wav2Vec2 Feature Extractor:
+  * Downsample the data because ATCOSIM dataset sampled with 32kHz but our fine-tuning dataset sampled with 16kHz
+* Preprocess Data

@@ -11,4 +11,5 @@ After searching for various journals on this subject with the help of my group m
 
 ## Second phase: fine-tuning the wav2vec2-large-xlsr-53 model on the ShEMO (Persian Speech Emotion Detection) database
 Running the code on availabe on [this site](https://colab.research.google.com/github/m3hrdadfi/notebooks/blob/main/Fine_Tune_XLSR_Wav2Vec2_on_Persian_ShEMO_ASR_with_%F0%9F%A4%97_Transformers_ipynb.ipynb), to understand what fine-tuning the model is and how it should be done! I came into this result:
-![Capture](https://user-images.githubusercontent.com/93929227/203249576-b14533ae-dd91-4c56-b063-554c7859f6d5.PNG) *hi*
+![Capture](https://user-images.githubusercontent.com/93929227/203249576-b14533ae-dd91-4c56-b063-554c7859f6d5.PNG) 
+*hi*

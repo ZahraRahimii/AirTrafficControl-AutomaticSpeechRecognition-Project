@@ -27,7 +27,7 @@ English language and pronounced by ten non-native operational controllers.
 <p/>
 The most important stages:
 * Prepare Data, Tokenizer, Feature Extractor:
- * Generate new CSV file so that it has a column of audio file path (WAV data)
+ * Generate new CSV file so that it has a column of audio file path
 
 <img src = "https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png" width="50%" height="50%"/>
 

@@ -1,5 +1,5 @@
 # Air Traffic Control Automatic Speech Recognition Project
-Here are the steps for implementing an automatic speech recognition system for the air traffic control communication dataset in the Asr Gooyesh Internship
+Here are the steps for implementing an automatic speech recognition system for air traffic control communication dataset in the internship at the [Asr Gooyesh Company](http://asr-gooyesh.com/fa/)
 
 * the first phase; searching for relevant articles and presenting them in PowerPoint format
 * second phase: fine-tuning the [wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) model on the [ShEMO](https://www.kaggle.com/datasets/mansourehk/shemo-persian-speech-emotion-detection-database) (Persian Speech Emotion Detection) database

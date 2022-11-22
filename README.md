@@ -51,6 +51,8 @@ Train set would look like:
 <img src = "https://user-images.githubusercontent.com/93929227/203259539-cd94e939-46f0-4897-bec3-d0da368020de.png" width=50% height=50%/>
 <p/>
  * In final step we evaluate the model. Here are ten random example of our resluts with 35% WER:
-![image](https://user-images.githubusercontent.com/93929227/203260165-8bc0dbf8-9f75-4db5-a5bd-7985ddf2781f.png)
+<p align="center">
+<img src = " https://user-images.githubusercontent.com/93929227/203263957-56e09b76-a6cf-49bb-8abc-6816d7d100aa.png" />
+<p/>
 
 

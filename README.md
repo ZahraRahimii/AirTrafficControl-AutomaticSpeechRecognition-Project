@@ -22,10 +22,10 @@ The dataset that was used was [ATCOSIM](https://www.spsc.tugraz.at/databases-and
 English language and pronounced by ten non-native operational controllers. 
 
 ![ATCOSIM_Dataset_Corpus](https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png)
+
 The most important stages:
 * Prepare Data, Tokenizer, Feature Extractor:
   * Generate new CSV file so that it has a column of audio file path (WAV data)
-
 ![image](https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png)
 
 * Load Train, Test and validation dataset:

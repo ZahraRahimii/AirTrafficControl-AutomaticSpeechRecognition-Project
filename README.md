@@ -52,7 +52,7 @@ Train set would look like:
 <p/>
  * In final step we evaluate the model. Here are ten random example of our resluts with 35% WER:
 <p align="center">
-<img src = " https://user-images.githubusercontent.com/93929227/203263957-56e09b76-a6cf-49bb-8abc-6816d7d100aa.png" />
+<img src = "https://user-images.githubusercontent.com/93929227/203263957-56e09b76-a6cf-49bb-8abc-6816d7d100aa.png" width=100% height=100%/>
 <p/>
 
 

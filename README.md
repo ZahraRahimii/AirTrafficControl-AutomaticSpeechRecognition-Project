@@ -22,7 +22,7 @@ The dataset that was used was [ATCOSIM](https://www.spsc.tugraz.at/databases-and
 English language and pronounced by ten non-native operational controllers. 
 
 <!-- ![ATCOSIM_Dataset_Corpus](https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png) -->
-<img src = "https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png" width="150" height="280">
+<img src = "https://user-images.githubusercontent.com/93929227/203252260-0e34fcc1-c6fc-4561-b9b0-134a3a3155dc.png" width="50%" height="50%"/>
 
 The most important stages:
 * Prepare Data, Tokenizer, Feature Extractor:

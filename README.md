@@ -28,7 +28,8 @@ English language and pronounced by ten non-native operational controllers.
 The most important stages:
 * Prepare Data, Tokenizer, Feature Extractor:
  * Generate new CSV file so that it has a column of audio file path (WAV data)
-<img src = "https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png" width="60%" height="60%"/>
+
+<img src = "https://user-images.githubusercontent.com/93929227/203254857-dcb61669-182b-457d-a584-dc8fdc394339.png" width="30%" height="30%"/>
 
  * Load Train, Test and validation dataset:
   * Separating dataset to train and test sets
